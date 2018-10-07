@@ -1,5 +1,11 @@
+html {
+  height: 100vh;
+  background-color: black;
+}
+
 .App {
   text-align: center;
+  height: 100vh;
 }
 
 .App-logo {
@@ -15,11 +21,15 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: black;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+#root {
+  background-color: black;
 }
 
 @keyframes App-logo-spin {
